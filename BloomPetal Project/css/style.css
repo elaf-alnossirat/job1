@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Sunflower&display=swap');
+
+* {
+  font-family: "Sunflower", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+header.head-page img {
+  width: 100px;
+  
+}
+
+body {
+  margin: 0%;
+}
+
+
+
+
+
+section.top-page {
+ background: url('../images/colorful-humidity-glass.jpg');
+ height: 100vh;
+ background-size: cover;
+ 
+}
+
+
+/* menue de navigation*/ 
+header.head-page {
+  display: flex;
+  align-items: center;
+  justify-content: start; 
+}
+
+nav.nav {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    width: 400px;
+  
+ }
+
+ nav.nav p a {
+  color: rgb(199, 168, 168);
+  text-decoration: none;
+ }
+
+
+ div.landing-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h1{
+    font-size: 40px;
+  }
+ }
+
+  div.landing-page p {
+    text-align: justify;
+    width: 50%; 
+    padding-top: 70px;
+    font-size: 15px;
+    
+  }
+
+section.service {
+  display: flex;
+ 
+}
+  div.service-titre {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color:rgb(199, 168, 168) ;
+    justify-content: space-around;
+    
+  }
+
+  div.service-inscription {
+    display: flex;
+    align-items: center;
+    justify-content:center; 
+    margin-left: 4px;
+
+
+    p{
+      text-align: center;
+      width: 50%;
+      font-size: 10px;
+      
+      }
+
+    ar1{
+      margin-left: 200px;
+    }  
+
+    ar2{
+      margin-left: 200px;
+    }  
+    ar3{
+      margin-left: 200px;
+    }  
+  }
+
+
+section.equipe-page {
+  background: url('../images/pink-background-with-floral-field-shadow.jpg');
+  background-size: cover;
+  height: 120vh;
+  display: flex;
+  flex-direction: column; 
+}
+
+  div.discription-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding-top: 40px;
+
+    h2{
+      font-size: 20px;
+    }
+
+    p{
+      text-align: center;
+      width: 50%;
+      font-size: 12px;
+      
+
+    }
+  }
+
+  
+  
+  div.photo1 img{
+    width: 150px;
+  }
+  div.photo2 img{
+    width: 150px;
+  }
+  div.photo3 img{
+    width: 150px;
+  }
+
+  div.lequipe{
+    
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 100px;
+    
+
+  }
+
+  .list-dero{
+    font-size: larger;
+  }
+  #civilite-select{
+    font-size: large;
+    height: 50px;
+    width: 330px;
+  }
+
+  .selecteur{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  #nom{
+    margin-right: 20px;
+  }
+
+section.contact{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:space-between;
+  
+  background: url('../images/v690-sasi-02.jpg');
+  background-size: cover;
+}
+
+
+
+.name-select input{
+  padding: 10px;
+  padding-right: 150px;
+}
+.nom-select input{
+  padding: 10px;
+  padding-right: 150px;
+}
+.adresse-select input{
+  padding: 10px;
+  padding-right: 150px;
+}
+
+div.name-select{
+  margin-bottom: 30px;
+  margin-top: 30px; 
+
+}
+
+div.nom-select{
+  margin-bottom: 30px;
+}
+
+div.adresse-select{
+  margin-bottom: 30px; 
+}
+
+button{
+  padding: 10px;
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-top: 30px;
+}
+
+div.contact-discription{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  p{
+    text-align: justify;
+    width: 50%;
+  }
+}
+
+
+
+/* gallery */
+
+ * .container {
+padding: 0;
+margin: 0;
+
+p{
+  text-align: justify;
+  margin-bottom: 50px;
+
+}
+}
+
+.container{
+  max-width: 1224px;
+  width: 90%;
+  margin: auto;
+  padding: 40px;
+
+}
+
+.photo-gallery{
+  display: flex;
+  gap: 20px;
+
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+  gap: 20px
+  ;
+}
+
+.photo img{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
